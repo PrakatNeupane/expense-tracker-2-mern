@@ -1,0 +1,12 @@
+// backend 
+1. receive userID and _id for the expenses in your delete router 
+2. write a query to delete, filter should have both userID and _id
+3. return the response
+
+// Frontend
+1. Add delete button on each expenses
+2. create a function which should receive the _id of the expense on delete button click
+3. create a function to make axios delete call to your api
+4. call the function #3 from function #2 on click of delete button
+5. once the response is received, check the status and display the feedback message to the userID
+6. refetch all the expense
